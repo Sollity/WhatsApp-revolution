@@ -1,9 +1,14 @@
-const express = require("express");
-const app = express();
-
-app.get("/", (req, res) => {
-  res.send("API rodando 🚀");
-});
-
-const port = process.env.PORT || 3000;
-app.listen(port, () => console.log("Rodando na porta " + port));
+{
+  "name": "api-evolution-teste",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
